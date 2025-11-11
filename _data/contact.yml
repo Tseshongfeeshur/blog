@@ -1,18 +1,14 @@
 #  The contact options.
 
+- type: teleblog
+  icon: 'fa-brands fa-telegram'
+  url: 'https://teleblog.ryanyuan.top'
+
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
@@ -39,6 +35,18 @@
 #   icon: 'fa-brands fa-threads'
 #   url: ''                   # Fill with your Threads profile link
 
+- type: linuxdo
+  icon: 'fa-solid fa-bars'
+  url: 'https://linux.do/u/tseshongfeeshur/summary'
+
 - type: bilibili
   icon: 'fa-brands fa-bilibili'
   url: 'https://space.bilibili.com/1754423404'
+
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
