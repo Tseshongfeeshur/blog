@@ -7,6 +7,14 @@
 - type: github
   icon: "fab fa-github"
 
+# - type: email
+#   icon: "fas fa-envelope"
+#   noblank: true # open link in current tab
+#
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
+#
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"
 # Uncomment and complete the url below to enable more contact options
@@ -42,11 +50,3 @@
 - type: bilibili
   icon: 'fa-brands fa-bilibili'
   url: 'https://space.bilibili.com/1754423404'
-
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
