@@ -1,0 +1,8 @@
+- links_category: 常规
+  has_thumbnail: false
+  list:
+      - name: Pinpe 的云端
+        link: "https://pinpe.top/"
+        description: 宁为鲜花而死，不为面包而活。
+        avatar: "https://raw.githubusercontent.com/Pinpe/Pinpe-top/refs/heads/main/src/assets/images/head.jpg"
+        # thumbnail: 

@@ -176,13 +176,14 @@ home_banner:
     style: default # default, reverse, center
     # Social links
     links:
+      email: i@ryanyuan.top # your email
       github: https://github.com/Tseshongfeeshur # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
-      twitter: https://x.com/tseshongfeeshur # your twitter URL
       fa-solid fa-bars: https://linux.do/u/tseshongfeeshur/summary
+      twitter: https://x.com/tseshongfeeshur # your twitter URL
+      fa-brands fa-telegram: https://t.me/RyansDoorstep
       fa-brands fa-bilibili: https://space.bilibili.com/1754423404
-      email: i@ryanyuan.top # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -210,10 +211,7 @@ navbar:
     Home: 
       path: /
       icon: fa-regular fa-house # can be empty
-    Archives: 
-      path: /archives
-      icon: fa-regular fa-archive # can be empty
-    Moments: 
+    动态: 
       path: /moments
       icon: fa-solid fa-comments # can be empty
     # Status: 
@@ -222,12 +220,16 @@ navbar:
     About: 
       icon: fa-regular fa-user
       submenus:
-        Me: /about
-        Friends: /friends
+        我: /about
+        朋友们: /links
     Links: 
       icon: fa-regular fa-link
       submenus:
-        Link1: /
+        "2048": "https://2048.ryanyuan.top/"
+        "SPL 歌词同步工具": "https://spl-syncer.ryanyuan.top/"
+        "Docker Hub 镜像站": "https://docker.ryanyuan.top/"
+        "KnowSex 镜像站": "https://knowsex.ryanyuan.top/"
+    #     Link1: /
     #     Link2: /link2
     #     Link3: /link3
     # ...... # you can add more
@@ -380,16 +382,16 @@ comment:
       region: # Twikoo region. can be empty
     # Giscus comment system. See https://giscus.app/
     giscus:
-      repo: # Github repository name e.g. EvanNotFound/hexo-theme-redefine
-      repo_id: # Github repository id
-      category: # Github discussion category
-      category_id: # Github discussion category id
+      repo: Tseshongfeeshur/blog # Github repository name e.g. EvanNotFound/hexo-theme-redefine
+      repo_id: R_kgDOQZD9MQ # Github repository id
+      category: Announcements # Github discussion category
+      category_id: DIC_kwDOQZD9Mc4Cx-ec # Github discussion category id
       mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
       strict: 0 # Whether to enable strict mode. e.g. 0, 1
       reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
       emit_metadata: 0 # Whether to emit metadata. e.g. 0, 1
-      lang: en # Giscus language. e.g. en, zh-CN, zh-TW
-      input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
+      lang: zh-CN # Giscus language. e.g. en, zh-CN, zh-TW
+      input_position: top # Place the comment box above/below the comments. e.g. top, bottom
       loading: lazy # Load the comments lazily
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -402,7 +404,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2025/12/01 00:00:00
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
