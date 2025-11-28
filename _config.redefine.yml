@@ -212,7 +212,7 @@ navbar:
       path: /
       icon: fa-regular fa-house # can be empty
     动态: 
-      path: /moments
+      path: "https://teleblog.ryanyuan.top"
       icon: fa-solid fa-comments # can be empty
     # Status: 
     #   path: https://status.ohevan.com/
