@@ -137,7 +137,7 @@ home_banner:
   title: Ryan's Blog
   # Home banner subtitle
   subtitle:
-    text: ["桃李不言 下自成蹊", "致力于开心地走完三万天"] # subtitle text, array
+    text: ["桃李不言 下自成蹊", "致力于开心地走完三万天", "我们吞咽了太多意义 其实生命只需要呼吸"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -145,8 +145,8 @@ home_banner:
     typing_speed: 100 # Typing speed (ms)
     backing_speed: 80 # Backing speed (ms)
     starting_delay: 500 # Start delay (ms)
-    backing_delay: 1500 # Backing delay (ms)
-    loop: false # Whether to loop
+    backing_delay: 2500 # Backing delay (ms)
+    loop: true # Whether to loop
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
@@ -212,7 +212,7 @@ navbar:
       path: /
       icon: fa-regular fa-house # can be empty
     动态: 
-      path: "https://teleblog.ryanyuan.top"
+      path: "https://teleblog.ryanyuan.top/"
       icon: fa-solid fa-comments # can be empty
     # Status: 
     #   path: https://status.ohevan.com/
