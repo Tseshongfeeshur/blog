@@ -34,7 +34,7 @@ Ryan 是什么呢？Ryan 就是 Ryan 嘛。
 - HTML / CSS / JavaScript（半吊子）
 - C++（只是摸过）
 - Python（只是摸过）
-- Shell（只是摸过）
+- Bash（只是摸过）
 - Flutter（准备摸一下）
 - Rust（准备摸一下）
 
