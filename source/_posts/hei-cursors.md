@@ -56,7 +56,7 @@ excerpt: 罗小黑主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎
   ```bash
   sudo pacman -S --needed base-devel
   git clone https://aur.archlinux.org/hei-cursors-git.git
-  cd hei-cursors
+  cd hei-cursors-git
   makepkg -si
   ```
 <!-- endtab -->
