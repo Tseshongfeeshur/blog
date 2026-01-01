@@ -55,7 +55,7 @@ excerpt: 罗小黑主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎
 - 手动安装 AUR 包
   ```bash
   sudo pacman -S --needed base-devel
-  git clone https://aur.archlinux.org/hei-cursors.github
+  git clone https://aur.archlinux.org/hei-cursors.git
   cd hei-cursors
   makepkg -si
   ```
