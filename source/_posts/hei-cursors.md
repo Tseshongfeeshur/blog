@@ -44,13 +44,21 @@ excerpt: 罗小黑主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎
 
 {% tabs installation %}
 <!-- tab Arch Linux -->
-```bash
-yay -S hei-cursors-git
-```
-**或**选择其他您喜欢的 AUR 助手：
-```bash
-paru -S hei-cursors-git
-```
+- 使用 AUR 助手
+  ```bash
+  paru -S hei-cursors-git
+  ```
+  **或**选择其他您喜欢的 AUR 助手：
+  ```bash
+  yay -S hei-cursors-git
+  ```
+- 手动安装 AUR 包
+  ```bash
+  sudo pacman -S --needed base-devel
+  git clone https://aur.archlinux.org/hei-cursors.github
+  cd hei-cursors
+  makepkg -si
+  ```
 <!-- endtab -->
 <!-- tab 其他发行版（手动安装） -->
 1. <details class="regular" data-header-exclude="">
