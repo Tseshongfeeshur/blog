@@ -88,11 +88,13 @@ paru -S hei-cursors-git
    - 为**当前用户**安装：
    ```bash
    git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   mkdir -p ~/.local/share/icons/
    mv ./hei_cursors ~/.local/share/icons/
    ```
    - **或**为**所有用户**安装 **（不建议）**：
    ```bash
    git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   sudo mkdir -p /usr/share/icons/
    sudo mv ./hei_cursors /usr/share/icons/
    ```
 <!-- endtab -->
