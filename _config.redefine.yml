@@ -52,19 +52,19 @@ global:
   fonts:
     # Chinese fonts
     chinese: 
-      enable: false # Whether to enable custom chinese fonts
-      family: Noto Sans SC # Font family
-      url: https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap # Font URL to CSS file
+      enable: true # Whether to enable custom chinese fonts
+      family: Zhuque Fangsong (technical preview) # Font family
+      url: /fonts/ZhuqueFangsong-Regular/result.css # Font URL to CSS filefile
     # English fonts
     english: 
-      enable: false # Whether to enable custom english fonts
-      family: Noto Sans # Font family
-      url: https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap # Font URL to CSS file
+      enable: true # Whether to enable custom english fonts
+      family: Zhuque Fangsong (technical preview) # Font family
+      url: /fonts/ZhuqueFangsong-Regular/result.css # Font URL to CSS file
     # Custom title fonts (navbar, sidebar)
     title:
-      enable: false # Whether to enable custom title fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true # Whether to enable custom title fonts
+      family: Zhuque Fangsong (technical preview) # Font family
+      url: /fonts/ZhuqueFangsong-Regular/result.css # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -137,7 +137,7 @@ home_banner:
   title: Ryan's Blog
   # Home banner subtitle
   subtitle:
-    text: ["桃李不言 下自成蹊", "致力于开心地走完三万天", "我们吞咽了太多意义 其实生命只需要呼吸"] # subtitle text, array
+    text: ["桃李不言 下自成蹊", "致力于开心地走完三万天", "我们吞咽了太多意义 其实生命只需要呼吸", "不到园林，怎知春色如许？"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -163,11 +163,11 @@ home_banner:
   # Home banner custom font
   custom_font: 
     # Whether to enable custom font
-    enable: false
+    enable: true
     # Font family
-    family: 
+    family: Zhuque Fangsong (technical preview) # Font family
     # URL to font CSS file
-    url:
+    url: /fonts/ZhuqueFangsong-Regular/result.css # Font URL to CSS file
   # Home banner social links
   social_links:
     # Whether to enable
@@ -176,7 +176,7 @@ home_banner:
     style: default # default, reverse, center
     # Social links
     links:
-      email: i@ryanyuan.top # your email
+      # email:  # your email
       github: https://github.com/Tseshongfeeshur # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
@@ -283,7 +283,7 @@ home:
 articles:
   # Set the styles of the article
   style:
-    font_size: 16px # Font size
+    font_size: 18px # Font size
     line_height: 1.5 # Line height
     image_border_radius: 14px # image border radius
     image_alignment: center # image alignment. left, center
@@ -317,8 +317,8 @@ articles:
       dark: vs2015 # dark mode theme, support: github-dark, monokai-sublime, vs2015, night-owl, atom-one-dark, nord, tokyo-night-dark, a11y-dark, agate
     font: # Custom font
       enable: true # Whether to enable
-      family: Noto Sans Mono # Font family
-      url: https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap # Font URL to CSS file
+      family: myna-regular # Font family
+      url: /fonts/Myna-Regular/Myna-Regular.css # Font URL to CSS file
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC
