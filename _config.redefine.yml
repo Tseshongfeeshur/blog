@@ -225,7 +225,7 @@ navbar:
     Links: 
       icon: fa-regular fa-link
       submenus:
-        "2048": "https://2048.ryanyuan.top/"
+        "更流畅的 2048": "https://2048.ryanyuan.top/"
         "SPL 歌词同步工具": "https://spl-syncer.ryanyuan.top/"
         "Docker Hub 反代站": "https://docker.ryanyuan.top/"
         "KnowSex 镜像站": "https://knowsex.ryanyuan.top/"
