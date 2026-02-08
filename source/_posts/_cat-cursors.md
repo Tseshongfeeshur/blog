@@ -45,15 +45,15 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
 {% tabs installation %}
 <!-- tab Arch Linux -->
 - 使用 AUR 助手
-  ```bash
+  ```zsh
   paru -S hei-cursors-git
   ```
   **或**选择其他您喜欢的 AUR 助手：
-  ```bash
+  ```zsh
   yay -S hei-cursors-git
   ```
 - 手动安装 AUR 包
-  ```bash
+  ```zsh
   sudo pacman -S --needed base-devel
   git clone https://aur.archlinux.org/hei-cursors-git.git
   cd hei-cursors-git
@@ -71,20 +71,20 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
             <ul>
                 <li>
                     Debian
-                    ```bash
+                    ```zsh
                     sudo apt update
                     sudo apt install git
                     ```
                 </li>
                 <li>
                     Fedora
-                    ```bash
+                    ```zsh
                     sudo dnf install git
                     ```
                 </li>
                 <li>
                     Arch Linux
-                    ```bash
+                    ```zsh
                     sudo pacman -S git
                     ```
                 </li>
@@ -94,13 +94,13 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
 </details>
 2. 安装主题包
    - 为**当前用户**安装：
-   ```bash
+   ```zsh
    git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
    mkdir -p ~/.local/share/icons/
    mv ./hei_cursors ~/.local/share/icons/
    ```
    - **或**为**所有用户**安装 **（不建议）**：
-   ```bash
+   ```zsh
    git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
    sudo mkdir -p /usr/share/icons/
    sudo mv ./hei_cursors /usr/share/icons/
@@ -115,7 +115,7 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
 <!-- tab KDE Plasma -->
  
 1. 导航至**系统设置 → 外观和样式 → 颜色和主题 → 光标**，或：
-   ```bash
+   ```zsh
    systemsettings kcm_cursortheme
    ```
 2. 单击“**罗小黑**”光标样式后单击窗口右下角“**应用**”
@@ -134,20 +134,20 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
             <ul>
                 <li>
                     Debian
-                    ```bash
+                    ```zsh
                     sudo apt update
                     sudo apt install gnome-tweaks
                     ```
                 </li>
                 <li>
                     Fedora
-                    ```bash
+                    ```zsh
                     sudo dnf install gnome-tweaks
                     ```
                 </li>
                 <li>
                     Arch Linux
-                    ```bash
+                    ```zsh
                     sudo pacman -S gnome-tweaks
                     ```
                 </li>
@@ -158,7 +158,7 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
 2. 导航至**优化 → 外观 → 光标**
 3. 单击下拉菜单，选择“**Hei_cursor**”光标样式
 4. 选择观感舒适的光标大小：
-   ```bash
+   ```zsh
    gsettings set org.gnome.desktop.interface cursor-size $px
    # 将“$px”改为您需要的像素值，如 48
    ```
