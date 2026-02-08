@@ -42,7 +42,7 @@ excerpt: 折腾垃圾电子设备梵沐 PA03，允许为其安装第三方应用
 
 ### ADB
 
-我们万分欣喜，于是尝试直接使用 ADB 安装 **MT 管理器**，非常幸运地成功了。
+我们万分欣喜，于是尝试直接使用 ADB 安装 **[MT 管理器](https://mt2.cn/)**，非常幸运地成功了。
 
 我们以为已经大功告成了，可是尝试使用系统内方法（不用 ADB）安装 APK 时，居然遇到了另外的障碍：
 
@@ -84,13 +84,13 @@ ro.product.cpu.abilist = armeabi-v7a,armeabi
 <strong>方法：</strong>完全关机，断开 USB，按住上下音量键，连接 USB，松开音量键，马上执行 `sudo mtk payload`，跑日志不报错就大概率正常。如果不正常就听它的话做吧，它让你干什么你就干什么。
 {% endnotel %}
 
-进入 DA 模式后，执行 `sudo mtk rl . --skip=userdata` 全盘备份。用户数据就不管了，没什么用还占空间。全盘备份的文件我放在这里了。
+进入 DA 模式后，执行 `sudo mtk rl . --skip=userdata` 全盘备份。用户数据就不管了，没什么用还占空间。全盘备份的文件我放在[这里](https://t.me/RyansDoorstep/512)了。
 
 #### 解锁
 
 然后尝试解锁。
 
-```bash
+```zsh
 ➜  ~ sudo mtk da seccfg unlock
 Main - Handling da commands ...
 DaHandler
@@ -99,7 +99,7 @@ DaHandler - [LIB]: Unknown lockstate or no lockstate
 
 似乎提示无锁？让我们读取 `seccfg` 分区简单验证下。
 
-```bash
+```zsh
 ➜  ~ sudo mtk r seccfg ./seccfg.bin
 ➜  ~ hexdump -C ./seccfg.bin | head -20
 00000000  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
@@ -107,19 +107,19 @@ DaHandler - [LIB]: Unknown lockstate or no lockstate
 00080000
 ```
 
-大面积 0，果然没有锁，那我们再尝试进入 bootloader。
+大面积 `0`，果然没有锁，那我们再尝试进入 bootloader。
 
-于是我们发现了一个非常奇怪的事情，虽然可以正常进入 `bootloader`，但是它仍然**固执地认为自己有锁**。
+于是我们发现了一个非常奇怪的事情，虽然可以正常进入 bootloader，但是它仍然**固执地认为自己有锁**。
 
-考虑到这种设备安全等级非常低，我们可以尝试不管 `bootloader` 的锁状态，直接使用 MTK Client 刷写分区，应该也是可以启动的。~~大不了再刷回来嘛。~~
+考虑到这种设备安全等级非常低，我们可以尝试不管 bootloader 的锁状态，直接使用 MTK Client 刷写分区，应该也是可以启动的。~~大不了再刷回来嘛。~~
 
 #### 选择方案
 
-这种老设备可能还是 Magisk 最保险，APatch 和 KernelSU 似乎并不支持 Android 6.x。
+这种老设备可能还是 [Magisk](https://github.com/topjohnwu/Magisk) 最保险，[KernelSU](https://github.com/tiann/KernelSU) 和 [APatch](https://github.com/bmax121/APatch) 似乎并不支持 Android 6.x。
 
-于是我们从 Magisk `20.4` 开始试起，很多版本都有或多或少的问题，比如有的版本无法选择镜像，有的版本在修补时闪退。诸如此类等等等等。
+于是我们从 Magisk [`20.4`](https://github.com/topjohnwu/Magisk/releases/tag/v20.4) 开始试起，很多版本都有或多或少的问题，比如有的版本无法选择镜像，有的版本在修补时闪退。诸如此类等等等等。
 
-试到 `23.0` 时，终于一切正常，于是就可以走常规流程，修补然后刷入了。
+试到 [`23.0`](https://github.com/topjohnwu/Magisk/releases/tag/v23.0) 时，终于一切正常，于是就可以走常规流程，修补然后刷入了。
 
 #### 执行方案
 
@@ -127,7 +127,7 @@ DaHandler - [LIB]: Unknown lockstate or no lockstate
 
 #### 检验结果
 
-重启设备，打开 Magisk Manager，我们不难发现设备**已经成功 ROOT**，MT 管理器也可以请求权限了。虽然启动时提示检测到不属于 Magisk 的 su 文件，不过**应该无伤大雅**。反正我是没遇到什么问题，又不是不能用.webp。
+重启设备，打开 Magisk Manager，我们不难发现设备**已经成功 ROOT**，MT 管理器也可以请求权限了。虽然启动时提示检测到不属于 Magisk 的 su 文件，不过**应该无伤大雅**。反正我是没遇到什么问题，**又不是不能用.webp**。
 
 于是就可以愉快地玩耍啦～
 
