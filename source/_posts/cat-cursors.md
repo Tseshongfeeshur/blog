@@ -1,6 +1,6 @@
 ---
 title: 猫标主题鼠标指针
-date: 2025-12-29 19:14:08
+date: 2025-02-11 01:15:24
 
 tags:
     - 鼠标指针
@@ -10,15 +10,15 @@ categories:
     - 项目
 
 thumbnail: 
-excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cub）创作，由我移植。
+excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 406949928（HappyCadogt）创作，由我移植。
 ---
 ## 关于项目
 
-- 原作者：<a href="https://space.bilibili.com/1013625945"><i class="fa-brands fa-bilibili"></i> 漓翎_cub <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>
+- 原作者：<a href="https://space.bilibili.com/406949928"><i class="fa-brands fa-bilibili"></i> HappyCadogt <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>
 - 移植者：<a href="https://github.com/Tseshongfeeshur"><i class="fa-brands fa-github"></i> Ryan <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>
-- 项目地址：[GitHub](https://github.com/Tseshongfeeshur/hei-cursors)
+- 项目地址：[GitHub](https://github.com/Tseshongfeeshur/cat-cursors)
 
-由于截至项目发布（2025.12.6），原作者仅为 Windows 和 MacOS 平台提供适配，尚未提供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 版本，遂将其移植为适用于大多数桌面环境的 [XDG 主题包](https://specifications.freedesktop.org/icon-theme/latest/)，以供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 用户使用。
+由于截至项目发布（2025.12.6），原作者仅为 Windows 平台提供适配，尚未提供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 版本，遂将其移植为适用于大多数桌面环境的 [XDG 主题包](https://specifications.freedesktop.org/icon-theme/latest/)，以供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 用户使用。
 
 {% note purple %}
 特别感谢原作者的付出和努力，否则该移植项目不可能出现，我们也不可能用到如此精美的鼠标指针。
@@ -26,11 +26,11 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
 
 ## 项目内容
 
-![封面](/images/hei-cursors/banner.png)
+<!-- ![封面](/images/cat-cursors/banner.png) -->
 
-- 以在[《罗小黑战记》](https://www.bilibili.com/bangumi/play/ep32374)系列作品中出场的角色“罗小黑”为原型，由 <a href="https://space.bilibili.com/1013625945"><i class="fa-brands fa-bilibili"></i> 漓翎_cub <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>设计并制作
-- **大部分**为动态图标
-- 支持 **24 / 32 / 48 / 64 / 96 / 128 / 192 / 256 / 512** 多分辨率
+- 由 <a href="https://space.bilibili.com/406949928"><i class="fa-brands fa-bilibili"></i> HappyCadogt <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>设计并制作
+- **全部**为动态图标
+- 支持 **24 / 32 / 48 / 64 / 96 / 128 / 192 / 256** 多分辨率
 
 ## 适用平台
 
@@ -46,21 +46,21 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
 <!-- tab Arch Linux -->
 - 使用 AUR 助手
   ```zsh
-  paru -S hei-cursors-git
+  paru -S cat-cursors-git
   ```
   **或**选择其他您喜欢的 AUR 助手：
   ```zsh
-  yay -S hei-cursors-git
+  yay -S cat-cursors-git
   ```
 - 手动安装 AUR 包
   ```zsh
   sudo pacman -S --needed base-devel
-  git clone https://aur.archlinux.org/hei-cursors-git.git
+  git clone https://aur.archlinux.org/cat-cursors-git.git
   cd hei-cursors-git
   makepkg -si
   ```
 <!-- endtab -->
-<!-- tab 其他发行版（手动安装） -->
+<!-- tab 暂不支持其他发行版（手动安装） -->
 1. <details class="regular" data-header-exclude="">
     <summary>
         <i class="fa-solid fa-chevron-right"></i>
@@ -95,13 +95,13 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
 2. 安装主题包
    - 为**当前用户**安装：
    ```zsh
-   git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   git clone https://github.com/Tseshongfeeshur/cat-cursors.git hei_cursors
    mkdir -p ~/.local/share/icons/
    mv ./hei_cursors ~/.local/share/icons/
    ```
    - **或**为**所有用户**安装 **（不建议）**：
    ```zsh
-   git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   git clone https://github.com/Tseshongfeeshur/cat-cursors.git hei_cursors
    sudo mkdir -p /usr/share/icons/
    sudo mv ./hei_cursors /usr/share/icons/
    ```
@@ -118,7 +118,7 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
    ```zsh
    systemsettings kcm_cursortheme
    ```
-2. 单击“**罗小黑**”光标样式后单击窗口右下角“**应用**”
+2. 单击“**猫标**”光标样式后单击窗口右下角“**应用**”
 3. 在窗口上方选择观感舒适的光标大小
  
 <!-- endtab -->
@@ -156,7 +156,7 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
     </div>
 </details>
 2. 导航至**优化 → 外观 → 光标**
-3. 单击下拉菜单，选择“**Hei_cursor**”光标样式
+3. 单击下拉菜单，选择“**Cat_cursor**”光标样式
 4. 选择观感舒适的光标大小：
    ```zsh
    gsettings set org.gnome.desktop.interface cursor-size $px
@@ -171,5 +171,5 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cu
 
 ## 鸣谢
 
-- 原作者 <a href="https://space.bilibili.com/1013625945"><i class="fa-brands fa-bilibili"></i> 漓翎_cub <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，没有他的付出，就没有这个项目
+- 原作者 <a href="https://space.bilibili.com/406949928"><i class="fa-brands fa-bilibili"></i> HappyCadogt <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，没有他的付出，就没有这个项目
 - `xorg-xcursorgen`，它为多分辨率图标的生成提供了很便捷的方式
