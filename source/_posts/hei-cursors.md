@@ -47,17 +47,17 @@ excerpt: 罗小黑主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎
 <!-- tab Arch Linux -->
 - 使用 AUR 助手
   ```zsh
-  paru -S hei-cursors-git
+  paru -S hei-cursors-bin
   ```
   **或**选择其他您喜欢的 AUR 助手：
   ```zsh
-  yay -S hei-cursors-git
+  yay -S hei-cursors-bin
   ```
 - 手动安装 AUR 包
   ```zsh
   sudo pacman -S --needed base-devel
-  git clone https://aur.archlinux.org/hei-cursors-git.git
-  cd hei-cursors-git
+  git clone https://aur.archlinux.org/hei-cursors-bin.git
+  cd hei-cursors-bin
   makepkg -si
   ```
 <!-- endtab -->
@@ -65,7 +65,7 @@ excerpt: 罗小黑主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎
 1. <details class="regular" data-header-exclude="">
     <summary>
         <i class="fa-solid fa-chevron-right"></i>
-        安装 <code>git</code>
+        安装 <code>curl</code> 和 <code>tar</code>
     </summary>
     <div class="content markdown-body">
         <p>
@@ -74,19 +74,19 @@ excerpt: 罗小黑主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎
                     Debian
                     ```zsh
                     sudo apt update
-                    sudo apt install git
+                    sudo apt install curl tar
                     ```
                 </li>
                 <li>
                     Fedora
                     ```zsh
-                    sudo dnf install git
+                    sudo dnf install curl tar
                     ```
                 </li>
                 <li>
                     Arch Linux
                     ```zsh
-                    sudo pacman -S git
+                    sudo pacman -S curl tar
                     ```
                 </li>
             </ul>
@@ -96,13 +96,15 @@ excerpt: 罗小黑主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎
 2. 安装主题包
    - 为**当前用户**安装：
    ```zsh
-   git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   curl -L "https://github.com/Tseshongfeeshur/hei-cursors/releases/latest/download/hei-cursors.tar.gz" -o hei-cursors.tar.gz
+   tar -xzf hei-cursors.tar.gz
    mkdir -p ~/.local/share/icons/
    mv ./hei_cursors ~/.local/share/icons/
    ```
    - **或**为**所有用户**安装 **（不建议）**：
    ```zsh
-   git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   curl -L "https://github.com/Tseshongfeeshur/hei-cursors/releases/latest/download/hei-cursors.tar.gz" -o hei-cursors.tar.gz
+   tar -xzf hei-cursors.tar.gz
    sudo mkdir -p /usr/share/icons/
    sudo mv ./hei_cursors /usr/share/icons/
    ```
