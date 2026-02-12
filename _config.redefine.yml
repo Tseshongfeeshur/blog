@@ -52,17 +52,17 @@ global:
   fonts:
     # Chinese fonts
     chinese: 
-      enable: true # Whether to enable custom chinese fonts
+      enable: false # Whether to enable custom chinese fonts
       family: Zhuque Fangsong (technical preview) # Font family
       url: /fonts/ZhuqueFangsong-Regular/result.css # Font URL to CSS filefile
     # English fonts
     english: 
-      enable: true # Whether to enable custom english fonts
+      enable: false # Whether to enable custom english fonts
       family: Zhuque Fangsong (technical preview) # Font family
       url: /fonts/ZhuqueFangsong-Regular/result.css # Font URL to CSS file
     # Custom title fonts (navbar, sidebar)
     title:
-      enable: true # Whether to enable custom title fonts
+      enable: false # Whether to enable custom title fonts
       family: Zhuque Fangsong (technical preview) # Font family
       url: /fonts/ZhuqueFangsong-Regular/result.css # Font URL to CSS file
   # Content max width

@@ -18,7 +18,7 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 406949928（HappyCadog
 - 移植者：<a href="https://github.com/Tseshongfeeshur"><i class="fa-brands fa-github"></i> Ryan <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>
 - 项目地址：[GitHub](https://github.com/Tseshongfeeshur/cat-cursors)
 
-由于截至项目发布（2025.12.6），原作者仅为 Windows 平台提供适配，尚未提供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 版本，遂将其移植为适用于大多数桌面环境的 [XDG 主题包](https://specifications.freedesktop.org/icon-theme/latest/)，以供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 用户使用。
+由于截至项目发布（2026.2.10），原作者仅为 Windows 平台提供适配，尚未提供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 版本，遂将其移植为适用于大多数桌面环境的 [XDG 主题包](https://specifications.freedesktop.org/icon-theme/latest/)，以供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 用户使用。
 
 {% note purple %}
 特别感谢原作者的付出和努力，否则该移植项目不可能出现，我们也不可能用到如此精美的鼠标指针。
