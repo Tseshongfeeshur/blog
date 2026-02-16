@@ -163,7 +163,7 @@ home_banner:
   # Home banner custom font
   custom_font: 
     # Whether to enable custom font
-    enable: true
+    enable: false
     # Font family
     family: Zhuque Fangsong (technical preview) # Font family
     # URL to font CSS file
