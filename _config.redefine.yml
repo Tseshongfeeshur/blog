@@ -220,7 +220,7 @@ navbar:
     About: 
       icon: fa-regular fa-user
       submenus:
-        我: /about
+        Ryan: /about
         朋友们: /links
     Links: 
       icon: fa-regular fa-link

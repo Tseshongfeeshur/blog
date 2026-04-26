@@ -1,5 +1,5 @@
 ---
-title: 关于我
+title: 关于 Ryan
 ---
 Ryan 是什么呢？Ryan 就是 Ryan 嘛。
 
@@ -35,7 +35,7 @@ Ryan 是什么呢？Ryan 就是 Ryan 嘛。
 - C++（只是摸过）
 - Python（只是摸过）
 - Bash（只是摸过）
-- Flutter（准备摸一下）
+- Dart / Flutter（正在摸）
 - Rust（准备摸一下）
 
 ## 其他
