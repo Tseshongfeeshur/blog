@@ -1,5 +1,5 @@
 ---
-title: 猫标主题鼠标指针
+title: 猫标主题鼠标指针（未完结）
 date: 2026-02-11 01:15:24
 
 tags:
@@ -10,7 +10,7 @@ categories:
     - 项目
 
 thumbnail: 
-excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 406949928（HappyCadogt）创作，由我移植。
+excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 406949928（HappyCadogt）创作，由我移植。目前由于未完结（在更新），因此暂不提供预构建包。
 ---
 ## 关于项目
 
@@ -18,7 +18,7 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 406949928（HappyCadog
 - 移植者：<a href="https://github.com/Tseshongfeeshur"><i class="fa-brands fa-github"></i> Ryan <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>
 - 项目地址：[GitHub](https://github.com/Tseshongfeeshur/cat-cursors)
 
-由于截至项目发布（2026.2.10），原作者仅为 Windows 平台提供适配，尚未提供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 版本，遂将其移植为适用于大多数桌面环境的 [XDG 主题包](https://specifications.freedesktop.org/icon-theme/latest/)，以供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 用户使用。
+由于截至项目发布（2026.2.10），原作者仅为 Windows 平台提供适配，尚未提供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 版本，遂将其移植为适用于大多数桌面环境的 [XDG 主题包](https://specifications.freedesktop.org/icon-theme/latest/)，以供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 用户使用。目前由于未完结（在更新），因此暂不提供预构建包。
 
 {% note purple %}
 特别感谢原作者的付出和努力，否则该移植项目不可能出现，我们也不可能用到如此精美的鼠标指针。
@@ -171,5 +171,5 @@ excerpt: 猫标主题鼠标指针。由哔哩哔哩用户 406949928（HappyCadog
 
 ## 鸣谢
 
-- 原作者 <a href="https://space.bilibili.com/406949928"><i class="fa-brands fa-bilibili"></i> HappyCadogt <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，没有他的付出，就没有这个项目
+- 原作者 <a href="https://space.bilibili.com/406949928"><i class="fa-brands fa-bilibili"></i> HappyCadogt <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，没有 TA 的付出，就没有这个项目
 - `xorg-xcursorgen`，它为多分辨率图标的生成提供了很便捷的方式
