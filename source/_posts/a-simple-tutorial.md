@@ -43,4 +43,4 @@ categories: # 分类列表
 
 为方便作为初学者的好朋友快速查阅，特此建站。
 
-{% btn center ::Ran’s Tutorial::https://rans-tutorial.ryanyuan.top/:: %}
+{% btn center ::Ran’s Tutorial::https://ran-tutorial.ryanyuan.top/:: %}
