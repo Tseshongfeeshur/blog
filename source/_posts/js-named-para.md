@@ -14,7 +14,7 @@ categories: # 分类列表
 
 # thumbnail:  # 首页缩略图链接
 # cover:  # 页内头图链接
-# excerpt:  # 摘要字符串
+excerpt: 在 JavaScript 中利用解构赋值机制来实现命名形参的传递。
 ---
 
 <!--
